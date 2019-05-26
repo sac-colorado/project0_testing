@@ -1,9 +1,17 @@
+
 body{                                                                                                      
-    2  margin-top: 10px;                                                                                        
-    3  background-image: url("../web_pictures/production/Grand_Teton.jpg");                                     
-    4  background-repeat: no-repeat;                                                                            
-    5  background-position: center top;                                                                         
-    6  background-color: steelblue;                                                                             
-    7  font-family: "Times New Roman", Times, serif;                                                            
-    8  color: #000000;                                                                                          
-    9}     
+    margin-top: 10px;                                                                                        
+    background-image: url("../Images/Grand_Teton.jpg");                                    
+    background-repeat: no-repeat;                                                                            
+    background-position: center top;
+    background-color: steelblue;                                                                                                                                                   
+    font-family: 'Times New Roman', Times, serif;                                                          
+    color: #000000;                                                                                          
+}    
+
+h1.my_home_page_title {                                                                                                       
+    font-size: 350%;                                                                                  
+    text-align: center;
+    font-weight: bold;                                                                                    
+    margin-top: 0px;                                                                                  
+}    
