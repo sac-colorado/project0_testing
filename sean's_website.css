@@ -1,0 +1,9 @@
+body{                                                                                                      
+    2  margin-top: 10px;                                                                                        
+    3  background-image: url("../web_pictures/production/Grand_Teton.jpg");                                     
+    4  background-repeat: no-repeat;                                                                            
+    5  background-position: center top;                                                                         
+    6  background-color: steelblue;                                                                             
+    7  font-family: "Times New Roman", Times, serif;                                                            
+    8  color: #000000;                                                                                          
+    9}     
