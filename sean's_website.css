@@ -1,7 +1,7 @@
 
 body.home {                                                                                                      
     margin-top: 10px;                                                                                        
-    background-image: url("../Images/Grand_Teton.jpg");                                    
+    background-image: url("../Images/Grand_Teton.jpg");                                   
     background-repeat: no-repeat;                                                                            
     background-position: center top;
     background-color: steelblue;                                                                                                                                                   
@@ -9,7 +9,7 @@ body.home {
     color: #000000;                                                                                          
 }    
 
-body.career {                                                                                                      
+body.career, body.interests, body.retirement {                                                                                                      
     margin-top: 10px;                                                                                                                     
     background-repeat: no-repeat;                                                                            
     background-position: center top;
@@ -18,19 +18,12 @@ body.career {
     color: #000000;                                                                                          
 }    
 
-h1.my_home_page_title {                                                                                                       
+h1.my_home_page_title, h1.my_career_page_title, h1.my_interests_page_title, h1.my_retirement_page_title{                                                                                                       
     font-size: 325%;                                                                                  
     text-align: center;
     font-weight: bold;                                                                                    
     margin-top: 0px;                                                                                  
 }  
-
-h1.my_career_page_title {                                                                                                       
-    font-size: 325%;                                                                                  
-    text-align: center;
-    font-weight: bold;                                                                                    
-    margin-top: 0px;                                                                                  
-} 
 
 nav {
     text-align: center; 
