@@ -3,7 +3,8 @@ body.home {
     margin-top: 10px;                                                                                        
     background-image: url("../Images/Grand_Teton.jpg");                                   
     background-repeat: no-repeat;                                                                            
-    background-position: center top;
+    background-position: center top; 
+    background-size: 1000px 600px; /*width and height of the background-image */
     background-color: steelblue;                                                                                                                                                   
     font-family: 'Times New Roman', Times, serif;                                                          
     color: #000000;                                                                                          
@@ -30,4 +31,22 @@ nav {
     font-size: 200%;
     font-weight: bold; 
 } 
+
+div.main_home_grid {
+    margin-top: 450px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+div.my_home_grid {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.home_info_paragraph {
+    font-size:65%;
+    text-align: center;
+    color: rgb(175, 162, 162);
+}
 
