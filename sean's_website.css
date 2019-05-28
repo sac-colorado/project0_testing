@@ -19,7 +19,7 @@ body.career, body.interests, body.retirement {
     color: #000000;                                                                                          
 }    
 
-h1.my_home_page_title, h1.my_career_page_title, h1.my_interests_page_title, h1.my_retirement_page_title{                                                                                                       
+h1.page_title {                                                                                                       
     font-size: 325%;                                                                                  
     text-align: center;
     font-weight: bold;                                                                                    
@@ -35,8 +35,8 @@ nav {
 div.main_home_grid {
     margin-top: 450px;
     font-size: 150%;
-    /* text-align: center;
-    font-weight: bold; */
+    text-align: center;
+    font-weight: bold;
 }
 
 div.my_home_grid {
@@ -51,3 +51,15 @@ p.home_info_par {
     color: rgb(175, 162, 162);    
 }
 
+a.my_link {
+    color: black;
+}
+
+
+#navbarNavAltMarkup > div > a.nav-item.nav-link.active {
+    color: rgb(218, 100, 32);
+}
+
+#navbarNavAltMarkup > div > a.nav-item.nav-link {
+    color: rgb(218, 32, 88);
+}
