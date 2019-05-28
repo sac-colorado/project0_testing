@@ -40,6 +40,12 @@ div.main_home_grid {
     font-weight: bold;
 }
 
+/* Do a few custom colors on the the navbar-toggler */
+.navbar-toggler {
+    background-color: rgba(18, 78, 93, 0.233);
+    border: 3px solid black;
+}
+
 div.my_home_grid {
     font-size: 150%;
     font-weight: bold;
