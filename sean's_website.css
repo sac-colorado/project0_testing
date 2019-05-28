@@ -57,6 +57,25 @@ p.home_info_paragraph {
   color: #afa2a2;
 }
 
+div.retirement_grid {
+  float: left;
+  font-size: 120%;
+  text-align: center;
+  color: #afa2a2;
+}
+
+#USFS_title {
+  color: black;
+  font-size: 140%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#USFS_map_link {
+  color: black;
+  font-size: 140%;
+}
+
 a.my_link {
   color: black;
 }
