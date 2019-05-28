@@ -1,8 +1,7 @@
-$link_color: black;
 
-#home {                                                                                                      
+body.home {                                                                                                      
     margin-top: 10px;                                                                                        
-    background-image: url("../Images/Grand_Teton.jpg");                              
+    background-image: url("../Images/Grand_Teton.jpg");                                   
     background-repeat: no-repeat;                                                                            
     background-position: center top; 
     background-size: 1000px 600px; /*width and height of the background-image */
@@ -46,7 +45,7 @@ div.my_home_grid {
     text-align: center;
 }
 
-p.home_info_paragraph {
+p.home_info_par {
     font-size: 50%;
     text-align: center;
     color: rgb(175, 162, 162);    

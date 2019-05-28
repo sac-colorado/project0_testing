@@ -1,65 +1,66 @@
+#home {
+  margin-top: 10px;
+  background-image: url("../Images/Grand_Teton.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1000px 600px;
+  /*width and height of the background-image */
+  background-color: steelblue;
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+}
 
-body.home {                                                                                                      
-    margin-top: 10px;                                                                                        
-    background-image: url("../Images/Grand_Teton.jpg");                                   
-    background-repeat: no-repeat;                                                                            
-    background-position: center top; 
-    background-size: 1000px 600px; /*width and height of the background-image */
-    background-color: steelblue;                                                                                                                                                   
-    font-family: 'Times New Roman', Times, serif;                                                          
-    color: #000000;                                                                                          
-}    
+body.career, body.interests, body.retirement {
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: steelblue;
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+}
 
-body.career, body.interests, body.retirement {                                                                                                      
-    margin-top: 10px;                                                                                                                     
-    background-repeat: no-repeat;                                                                            
-    background-position: center top;
-    background-color: steelblue;                                                                                                                                                   
-    font-family: 'Times New Roman', Times, serif;                                                          
-    color: #000000;                                                                                          
-}    
-
-h1.page_title {                                                                                                       
-    font-size: 325%;                                                                                  
-    text-align: center;
-    font-weight: bold;                                                                                    
-    margin-top: 0px;                                                                                  
-}  
+h1.page_title {
+  font-size: 325%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px;
+}
 
 nav {
-    text-align: center; 
-    font-size: 200%;
-    font-weight: bold; 
-} 
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
 
 div.main_home_grid {
-    margin-top: 450px;
-    font-size: 150%;
-    text-align: center;
-    font-weight: bold;
+  margin-top: 450px;
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
 }
 
 div.my_home_grid {
-    font-size: 150%;
-    font-weight: bold;
-    text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
 }
 
-p.home_info_par {
-    font-size: 50%;
-    text-align: center;
-    color: rgb(175, 162, 162);    
+p.home_info_paragraph {
+  font-size: 50%;
+  text-align: center;
+  color: #afa2a2;
 }
 
 a.my_link {
-    color: black;
+  color: black;
 }
 
-
 #navbarNavAltMarkup > div > a.nav-item.nav-link.active {
-    color: rgb(218, 100, 32);
+  color: #da6420;
 }
 
 #navbarNavAltMarkup > div > a.nav-item.nav-link {
-    color: rgb(218, 32, 88);
+  color: #da2058;
 }
+
+/*# sourceMappingURL=sean's_website.css.map */
