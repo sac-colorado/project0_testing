@@ -19,6 +19,16 @@ body.career, body.interests, body.retirement {
   color: #000000;
 }
 
+/* @media (min-width: 700px) {
+    body {
+        background-color: steelblue;
+    }
+}
+@media (max-width: 699px) {
+    body {
+        background-color:greenyellow;
+    }
+} */
 h1.page_title {
   font-size: 325%;
   text-align: center;
@@ -71,9 +81,30 @@ div.retirement_grid {
   text-align: center;
 }
 
-#USFS_map_link {
+#Cameron_pass_map_link {
   color: black;
-  font-size: 140%;
+  margin-left: 75px;
+}
+
+#USFS_map_link {
+  margin-left: 60px;
+}
+
+#Cameron_video {
+  color: black;
+}
+
+.video_format {
+  margin-left: 25px;
+  border: none;
+}
+
+#Cameron_pass_sign {
+  border-radius: 5px 5px 5px 5px;
+}
+
+#Cameron_pass_map {
+  border-radius: 5px 5px 5px 5px;
 }
 
 a.my_link {

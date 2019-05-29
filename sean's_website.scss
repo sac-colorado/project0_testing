@@ -6,7 +6,7 @@ $link_color: black;
     background-repeat: no-repeat;                                                                            
     background-position: center top; 
     background-size: 1000px 600px; /*width and height of the background-image */
-    background-color: steelblue;                                                                                                                                                   
+    background-color: steelblue;                                                                                                                                               
     font-family: 'Times New Roman', Times, serif;                                                          
     color: #000000;                                                                                          
 }    
@@ -15,10 +15,21 @@ body.career, body.interests, body.retirement {
     margin-top: 10px;                                                                                                                     
     background-repeat: no-repeat;                                                                            
     background-position: center top;
-    background-color: steelblue;                                                                                                                                                   
+    background-color: steelblue;                                                                                                                                                 
     font-family: 'Times New Roman', Times, serif;                                                          
     color: #000000;                                                                                          
-}    
+}  
+
+/* @media (min-width: 700px) {
+    body {
+        background-color: steelblue;
+    }
+}
+@media (max-width: 699px) {
+    body {
+        background-color:greenyellow;
+    }
+} */
 
 h1.page_title {                                                                                                       
     font-size: 325%;                                                                                  
@@ -72,10 +83,32 @@ div.retirement_grid {
     text-align: center;
 }
 
-#USFS_map_link {
+#Cameron_pass_map_link {
     color: black;
-    font-size: 140%;
+    margin-left: 75px;
 }
+
+#USFS_map_link {
+    margin-left: 60px;
+}
+
+#Cameron_video {
+    color: black;
+}
+
+.video_format {
+    margin-left: 25px;
+    border: none;
+}
+
+#Cameron_pass_sign {
+    border-radius: 5px 5px 5px 5px;
+}
+
+#Cameron_pass_map {
+    border-radius: 5px 5px 5px 5px;
+}
+    
 
 a.my_link {
     color: $link_color;
