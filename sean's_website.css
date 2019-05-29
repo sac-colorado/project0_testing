@@ -23,8 +23,8 @@ body.career, body.interests, body.retirement {
 if the screen size width falls below 1000px wide. */
 @media (max-width: 1000px) {
   #Cameron_pass_map {
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
   }
 }
 @media (max-width: 680px) {
