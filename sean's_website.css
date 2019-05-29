@@ -27,12 +27,12 @@ if the screen size width falls below 1000px wide. */
     height: 400px;
   }
 }
-/*
-@media (max-width: 699px) {
-    body {
-        background-color:greenyellow;
-    }
-} */
+@media (max-width: 680px) {
+  #Cameron_pass_sign {
+    width: 250px;
+    height: 200px;
+  }
+}
 h1.page_title {
   font-size: 325%;
   text-align: center;
