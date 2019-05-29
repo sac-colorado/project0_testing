@@ -20,11 +20,16 @@ body.career, body.interests, body.retirement {
     color: #000000;                                                                                          
 }  
 
-/* @media (min-width: 700px) {
-    body {
-        background-color: steelblue;
+/* Using the CSS property @media to resize the Cameron_Pass Map on my retirement page
+if the screen size width falls below 1000px wide. */
+@media (max-width: 1000px) {
+    #Cameron_pass_map {
+        width: 250px;
+        height: 400px;
     }
 }
+
+/*
 @media (max-width: 699px) {
     body {
         background-color:greenyellow;
