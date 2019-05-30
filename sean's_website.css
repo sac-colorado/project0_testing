@@ -10,7 +10,7 @@
   color: #000000;
 }
 
-body.career, body.interests, body.retirement {
+#career, #interests, #retirement {
   margin-top: 10px;
   background-repeat: no-repeat;
   background-position: center top;
@@ -92,6 +92,10 @@ div.retirement_grid {
 
 #USFS_map_link {
   margin-left: 60px;
+}
+
+#Trail_map img:hover {
+  transform: scale(1.1);
 }
 
 #Cameron_video {
