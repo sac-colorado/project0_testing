@@ -87,6 +87,11 @@ div.my_home_grid {
     text-align: center;
 } 
 
+.career_table {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
 table.table-bordered {
     font-size: 85%;
     border: 3px solid black;
@@ -124,13 +129,6 @@ p.retire_info_paragraph {
     text-align: left;
     color: $link_text_color;
 }
-
-/* div.career_grid {
-    float: left;
-    font-size: 120%;
-    text-align: center;
-    color: $link_text_color;   
-} */
 
 #USFS_title {
     color: black;
