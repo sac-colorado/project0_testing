@@ -78,6 +78,13 @@ div.retirement_grid {
   color: #afa2a2;
 }
 
+.list_of_interests {
+  font-size: 50%;
+  margin-left: 30px;
+  text-align: left;
+  color: #afa2a2;
+}
+
 #USFS_title {
   color: black;
   font-size: 140%;

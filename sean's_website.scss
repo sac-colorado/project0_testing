@@ -1,4 +1,5 @@
 $link_color: black;
+$link_text_color: rgb(175, 162, 162); 
 
 #home {                                                                                                      
     margin-top: 10px;                                                                                        
@@ -41,7 +42,7 @@ h1.page_title {
     text-align: center;
     font-weight: bold;                                                                                    
     margin-top: 0px;                                                                                  
-}  
+} 
 
 nav {
     text-align: center; 
@@ -71,14 +72,21 @@ div.my_home_grid {
 p.home_info_paragraph {
     font-size: 50%;
     text-align: center;
-    color: rgb(175, 162, 162);    
+    color: $link_text_color;    
 }
 
 div.retirement_grid {
     float: left;
     font-size: 120%;
     text-align: center;
-    color: rgb(175, 162, 162);   
+    color: $link_text_color;   
+}
+
+.list_of_interests {
+    font-size: 50%;
+    margin-left: 30px;
+    text-align: left;
+    color: $link_text_color;
 }
 
 #USFS_title {
