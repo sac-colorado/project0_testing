@@ -1,5 +1,5 @@
 $link_color: black;
-$link_text_color: rgb(175, 162, 162); 
+$link_text_color: rgb(209, 204, 204); 
 
 #home {                                                                                                      
     margin-top: 10px;                                                                                        
@@ -21,7 +21,7 @@ $link_text_color: rgb(175, 162, 162);
     color: #000000;                                                                                          
 }  
 
-/* Using the CSS property @media to resize the Cameron_Pass Map on my retirement page
+/* Using the CSS property @media to resize the Cameron_pass_map on my retirement page
 if the screen size width falls below 1000px wide. */
 @media (max-width: 1000px) {
     #Cameron_pass_map {
@@ -30,6 +30,8 @@ if the screen size width falls below 1000px wide. */
     }
 }
 
+/* Using the CSS property @media to resize the Cameron_pass_sign Map on my retirement page
+if the screen size width falls below 1000px wide. */
 @media (max-width: 680px) {
     #Cameron_pass_sign {
         width: 250px;
@@ -67,6 +69,12 @@ div.main_career_grid {
     color: $link_text_color;
 }
 
+div.retirement_grid {
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+}
+
 /* Do a few custom colors on the the navbar-toggler */
 .navbar-toggler {
     background-color: rgba(18, 78, 93, 0.233);
@@ -77,10 +85,16 @@ div.my_home_grid {
     font-size: 150%;
     font-weight: bold;
     text-align: center;
-}
+} 
 
 table.table-bordered {
     font-size: 85%;
+}
+
+th.table_title {
+    font-size: 150%;
+    font-weight: bold;
+    color: rgb(18, 10, 85);
 }
 
 p.home_info_paragraph {
@@ -89,12 +103,18 @@ p.home_info_paragraph {
     color: $link_text_color;    
 }
 
-div.retirement_grid {
+p.retire_info_paragraph {
+    font-size: 75%;
+    text-align: center;
+    color: $link_text_color;
+}
+
+/* div.retirement_grid {
     float: left;
     font-size: 120%;
     text-align: center;
     color: $link_text_color;   
-}
+} */
 
 .list_of_interests {
     font-size: 50%;
