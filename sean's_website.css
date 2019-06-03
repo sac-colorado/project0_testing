@@ -19,7 +19,7 @@
   color: #000000;
 }
 
-/* Using the CSS property @media to resize the Cameron_Pass Map on my retirement page
+/* Using the CSS property @media to resize the Cameron_pass_map on my retirement page
 if the screen size width falls below 1000px wide. */
 @media (max-width: 1000px) {
   #Cameron_pass_map {
@@ -27,6 +27,8 @@ if the screen size width falls below 1000px wide. */
     height: 450px;
   }
 }
+/* Using the CSS property @media to resize the Cameron_pass_sign Map on my retirement page
+if the screen size width falls below 1000px wide. */
 @media (max-width: 680px) {
   #Cameron_pass_sign {
     width: 250px;
@@ -53,6 +55,22 @@ div.main_home_grid {
   font-weight: bold;
 }
 
+div.main_career_grid {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
+  color: #d1cccc;
+}
+
+div.retirement_grid {
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
+}
+
 /* Do a few custom colors on the the navbar-toggler */
 .navbar-toggler {
   background-color: rgba(18, 78, 93, 0.233);
@@ -65,17 +83,49 @@ div.my_home_grid {
   text-align: center;
 }
 
+table.table-bordered {
+  font-size: 85%;
+  border: 3px solid black;
+}
+
+table.table-bordered > thead > tr > th {
+  border: 3px solid black;
+}
+
+table.table-bordered > tbody > tr > td {
+  border: 3px solid black;
+}
+
+th.table_title {
+  font-size: 150%;
+  font-weight: bold;
+  color: #120a55;
+}
+
 p.home_info_paragraph {
   font-size: 50%;
   text-align: center;
-  color: #afa2a2;
+  color: #d1cccc;
 }
 
-div.retirement_grid {
+p.retire_info_paragraph {
+  font-size: 75%;
+  text-align: center;
+  color: #d1cccc;
+}
+
+.list_of_interests {
+  font-size: 50%;
+  margin-left: 30px;
+  text-align: left;
+  color: #d1cccc;
+}
+
+div.career_grid {
   float: left;
   font-size: 120%;
   text-align: center;
-  color: #afa2a2;
+  color: #d1cccc;
 }
 
 #USFS_title {
