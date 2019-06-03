@@ -89,6 +89,15 @@ div.my_home_grid {
 
 table.table-bordered {
     font-size: 85%;
+    border: 3px solid black;
+}
+
+table.table-bordered > thead > tr > th{
+    border:3px solid black;
+}
+
+table.table-bordered > tbody > tr > td{
+    border:3px solid black;
 }
 
 th.table_title {
@@ -108,13 +117,6 @@ p.retire_info_paragraph {
     text-align: center;
     color: $link_text_color;
 }
-
-/* div.retirement_grid {
-    float: left;
-    font-size: 120%;
-    text-align: center;
-    color: $link_text_color;   
-} */
 
 .list_of_interests {
     font-size: 50%;
