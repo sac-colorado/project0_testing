@@ -57,11 +57,11 @@ div.main_home_grid {
 
 div.main_career_grid {
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 150%;
   text-align: center;
   font-weight: bold;
+  /* margin-left: auto;
+  margin-right: auto; */
   color: #d1cccc;
 }
 
@@ -121,13 +121,12 @@ p.retire_info_paragraph {
   color: #d1cccc;
 }
 
-div.career_grid {
-  float: left;
-  font-size: 120%;
-  text-align: center;
-  color: #d1cccc;
-}
-
+/* div.career_grid {
+    float: left;
+    font-size: 120%;
+    text-align: center;
+    color: $link_text_color;   
+} */
 #USFS_title {
   color: black;
   font-size: 140%;

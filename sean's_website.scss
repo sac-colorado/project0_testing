@@ -61,11 +61,11 @@ div.main_home_grid {
 
 div.main_career_grid {
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 150%;
     text-align: center;
     font-weight: bold;
+    /* margin-left: auto;
+    margin-right: auto; */
     color: $link_text_color;
 }
 
@@ -125,12 +125,12 @@ p.retire_info_paragraph {
     color: $link_text_color;
 }
 
-div.career_grid {
+/* div.career_grid {
     float: left;
     font-size: 120%;
     text-align: center;
     color: $link_text_color;   
-}
+} */
 
 #USFS_title {
     color: black;
