@@ -57,6 +57,16 @@ div.main_home_grid {
     font-weight: bold;
 }
 
+div.main_career_grid {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+    color: $link_text_color;
+}
+
 /* Do a few custom colors on the the navbar-toggler */
 .navbar-toggler {
     background-color: rgba(18, 78, 93, 0.233);
@@ -67,6 +77,10 @@ div.my_home_grid {
     font-size: 150%;
     font-weight: bold;
     text-align: center;
+}
+
+table.table-bordered {
+    font-size: 85%;
 }
 
 p.home_info_paragraph {
@@ -87,6 +101,13 @@ div.retirement_grid {
     margin-left: 30px;
     text-align: left;
     color: $link_text_color;
+}
+
+div.career_grid {
+    float: left;
+    font-size: 120%;
+    text-align: center;
+    color: $link_text_color;   
 }
 
 #USFS_title {
