@@ -96,10 +96,13 @@ table.table-bordered tbody tr {
 }
 table.table-bordered tbody td {
   border: 3px solid black;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 th.table_title {
-  font-size: 150%;
+  font-size: 250%;
+  text-align: center;
   font-weight: bold;
   color: #120a55;
 }

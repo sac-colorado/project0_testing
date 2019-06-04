@@ -111,12 +111,14 @@ table.table-bordered {
         }
         td {
             border: 3px solid $table_border_color;
-        }
+            font-size: 150%; 
+            font-weight: bold;       }
     }
 }
 
 th.table_title {
-    font-size: 150%;
+    font-size: 250%;
+    text-align: center;
     font-weight: bold;
     color: rgb(18, 10, 85);
 }
