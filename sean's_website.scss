@@ -1,24 +1,26 @@
-$link_color: black;
-$link_text_color: rgb(209, 204, 204); 
+$hyper_link_color: black;
+$text_color: rgb(209, 204, 204);
+$table_border_color: black; 
 
-#home {                                                                                                      
-    margin-top: 10px;                                                                                        
-    background-image: url("./Images/Grand_Teton.jpg");                              
-    background-repeat: no-repeat;                                                                            
-    background-position: center top; 
-    background-size: 1000px 600px; /*width and height of the background-image */
-    background-color: steelblue;                                                                                                                                               
-    font-family: 'Times New Roman', Times, serif;                                                          
-    color: #000000;                                                                                          
-}    
-
-#career, #interests, #retirement {                                                                                                      
+/* SASS Inheritance */
+%message {
     margin-top: 10px;                                                                                                                     
     background-repeat: no-repeat;                                                                            
     background-position: center top;
     background-color: steelblue;                                                                                                                                                 
     font-family: 'Times New Roman', Times, serif;                                                          
-    color: #000000;                                                                                          
+    color: #000000;
+}
+
+/* Home page background picture and formatting info */
+#home {                                                                                                      
+    @extend %message;                                                                                    
+    background-image: url("./Images/Grand_Teton.jpg");                              
+    background-size: 1000px 600px; /*width and height of the background-image */                                                                                     
+}    
+
+#career, #interests, #retirement {                                                                                                      
+    @extend %message;                                                                                       
 }  
 
 /* Using the CSS property @media to resize the Cameron_pass_map on my retirement page
@@ -64,9 +66,9 @@ div.main_career_grid {
     font-size: 150%;
     text-align: center;
     font-weight: bold;
-    /* margin-left: auto;
-    margin-right: auto; */
-    color: $link_text_color;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: $text_color;
 }
 
 div.retirement_grid {
@@ -87,22 +89,30 @@ div.my_home_grid {
     text-align: center;
 } 
 
-.career_table {
-    padding-left: 10px;
-    padding-right: 20px;
-}
-
 table.table-bordered {
     font-size: 85%;
     border: 3px solid black;
 }
 
-table.table-bordered > thead > tr > th{
-    border:3px solid black;
-}
 
-table.table-bordered > tbody > tr > td{
-    border:3px solid black;
+/* SASS nesting to format the career table cell borders */
+table.table-bordered {
+    thead {
+        tr{
+            border: 3px solid $table_border_color;
+        }
+        th {
+            border: 3px solid $table_border_color;
+        }
+    }
+    tbody {
+        tr {
+            border: 3px solid $table_border_color;
+        }
+        td {
+            border: 3px solid $table_border_color;
+        }
+    }
 }
 
 th.table_title {
@@ -114,20 +124,20 @@ th.table_title {
 p.home_info_paragraph {
     font-size: 50%;
     text-align: center;
-    color: $link_text_color;    
+    color: $text_color;    
 }
 
 p.retire_info_paragraph {
     font-size: 75%;
     text-align: center;
-    color: $link_text_color;
+    color: $text_color;
 }
 
 .list_of_interests {
     font-size: 50%;
     margin-left: 30px;
     text-align: left;
-    color: $link_text_color;
+    color: $text_color;
 }
 
 #USFS_title {
@@ -138,6 +148,7 @@ p.retire_info_paragraph {
 }
 
 #Cameron_pass_map_link {
+    font-size: 90%;
     color: black;
     margin-left: 75px;
 }
@@ -152,6 +163,7 @@ p.retire_info_paragraph {
 
 #Cameron_video {
     color: black;
+    font-weight: bold;
 }
 
 .video_format {
@@ -168,7 +180,7 @@ p.retire_info_paragraph {
 }  
 
 a.my_link {
-    color: $link_color;
+    color: $hyper_link_color;
 }
 
 /* Change the color of the Navbar links */

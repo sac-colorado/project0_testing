@@ -1,22 +1,18 @@
-#home {
+/* SASS Inheritance */
+#career, #interests, #retirement, #home {
   margin-top: 10px;
-  background-image: url("./Images/Grand_Teton.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 1000px 600px;
-  /*width and height of the background-image */
   background-color: steelblue;
   font-family: "Times New Roman", Times, serif;
   color: #000000;
 }
 
-#career, #interests, #retirement {
-  margin-top: 10px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-color: steelblue;
-  font-family: "Times New Roman", Times, serif;
-  color: #000000;
+/* Home page background picture and formatting info */
+#home {
+  background-image: url("./Images/Grand_Teton.jpg");
+  background-size: 1000px 600px;
+  /*width and height of the background-image */
 }
 
 /* Using the CSS property @media to resize the Cameron_pass_map on my retirement page
@@ -60,8 +56,8 @@ div.main_career_grid {
   font-size: 150%;
   text-align: center;
   font-weight: bold;
-  /* margin-left: auto;
-  margin-right: auto; */
+  padding-left: 30px;
+  padding-right: 30px;
   color: #d1cccc;
 }
 
@@ -83,21 +79,22 @@ div.my_home_grid {
   text-align: center;
 }
 
-.career_table {
-  padding-left: 10px;
-  padding-right: 20px;
-}
-
 table.table-bordered {
   font-size: 85%;
   border: 3px solid black;
 }
 
-table.table-bordered > thead > tr > th {
+/* SASS nesting to format the career table cell borders */
+table.table-bordered thead tr {
   border: 3px solid black;
 }
-
-table.table-bordered > tbody > tr > td {
+table.table-bordered thead th {
+  border: 3px solid black;
+}
+table.table-bordered tbody tr {
+  border: 3px solid black;
+}
+table.table-bordered tbody td {
   border: 3px solid black;
 }
 
@@ -134,6 +131,7 @@ p.retire_info_paragraph {
 }
 
 #Cameron_pass_map_link {
+  font-size: 90%;
   color: black;
   margin-left: 75px;
 }
@@ -148,6 +146,7 @@ p.retire_info_paragraph {
 
 #Cameron_video {
   color: black;
+  font-weight: bold;
 }
 
 .video_format {
