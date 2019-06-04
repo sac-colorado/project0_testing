@@ -61,6 +61,16 @@ div.main_career_grid {
   color: #d1cccc;
 }
 
+div.main_interests_grid {
+  margin-top: 50px;
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #d1cccc;
+}
+
 div.retirement_grid {
   font-size: 150%;
   text-align: center;
@@ -98,6 +108,15 @@ table.table-bordered tbody td {
   border: 3px solid black;
   font-size: 150%;
   font-weight: bold;
+}
+
+div.interest_grid img {
+  border-radius: 5px 5px 5px 5px;
+}
+div.interest_grid h3 {
+  text-align: centered;
+  font-weight: bold;
+  color: black;
 }
 
 th.table_title {
@@ -187,6 +206,15 @@ a.my_link {
 
 #navbarNavAltMarkup > div > a.nav-item.nav-link {
   color: #da2058;
+}
+
+#Raspberry_pi_project {
+  font-size: 75%;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: black;
 }
 
 /*# sourceMappingURL=sean's_website.css.map */
