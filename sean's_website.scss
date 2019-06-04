@@ -179,6 +179,20 @@ p.retire_info_paragraph {
     border-radius: 5px 5px 5px 5px;
 }  
 
+div.rving {
+    h2 {
+        font-weight: bold;
+        text-align: center;
+    }
+    img {
+        border-radius: 5px 5px 5px 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+            
+    }
+}
+
 a.my_link {
     color: $hyper_link_color;
 }
