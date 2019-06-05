@@ -1,4 +1,8 @@
-/* SASS Inheritance */
+/*Sean Chapin "project0" implementation */
+/* #id and .class selectors are used throughout. sass varables and nesting along with 
+inheritance are documented when used below. */
+/* Use of sass variables */
+/* SASS Inheritance implementation*/
 #career, #interests, #retirement, #home {
   margin-top: 10px;
   background-repeat: no-repeat;
@@ -15,8 +19,8 @@
   /*width and height of the background-image */
 }
 
-/* Using the CSS property @media to resize the Cameron_pass_map on my retirement page
-if the screen size width falls below 1200px wide. */
+/* Using the CSS property @media (mobile-response) to resize the Cameron_pass_map on my 
+retirement page if the screen size width falls below 1200px wide. */
 @media (max-width: 1200px) {
   #Cameron_pass_map {
     width: 300px;
@@ -113,6 +117,7 @@ table.table-bordered tbody td {
   font-weight: bold;
 }
 
+/* Additional sass nesting */
 div.interest_grid img {
   border-radius: 5px 5px 5px 5px;
 }
@@ -229,6 +234,17 @@ a.my_link {
   padding-left: 30px;
   padding-right: 30px;
   color: black;
+}
+
+@media (min-width: 700px) {
+  .rving h2::before {
+    content: "RVing - Custer South Dakota";
+  }
+}
+@media (max-width: 699px) {
+  .rving h2::before {
+    content: "RVing";
+  }
 }
 
 /*# sourceMappingURL=sean's_website.css.map */
