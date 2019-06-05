@@ -16,18 +16,26 @@
 }
 
 /* Using the CSS property @media to resize the Cameron_pass_map on my retirement page
-if the screen size width falls below 1000px wide. */
-@media (max-width: 1000px) {
+if the screen size width falls below 1200px wide. */
+@media (max-width: 1200px) {
   #Cameron_pass_map {
     width: 300px;
     height: 450px;
   }
 }
 /* Using the CSS property @media to resize the Cameron_pass_sign Map on my retirement page
-if the screen size width falls below 1000px wide. */
-@media (max-width: 680px) {
+if the screen size width falls below 770px wide. */
+@media (max-width: 770px) {
   #Cameron_pass_sign {
     width: 250px;
+    height: 200px;
+  }
+}
+/* Using the CSS property @media to resize the the landscape pictures on my interests page
+if the screen size width falls below 1000px wide. */
+@media (max-width: 1000px) {
+  .interest_picture {
+    width: 300px;
     height: 200px;
   }
 }
@@ -89,12 +97,7 @@ div.my_home_grid {
   text-align: center;
 }
 
-table.table-bordered {
-  font-size: 85%;
-  border: 3px solid black;
-}
-
-/* SASS nesting to format the career table cell borders */
+/* SASS nesting to format the career table border and cell borders */
 table.table-bordered thead tr {
   border: 3px solid black;
 }
@@ -125,6 +128,7 @@ div.interest_grid h3 {
   color: black;
 }
 
+/* Make a square picture round */
 #Sawmill_ski {
   border-radius: 250px 250px 250px 250px;
 }
@@ -219,7 +223,7 @@ a.my_link {
 }
 
 #Raspberry_pi_project {
-  font-size: 75%;
+  font-size: 85%;
   text-align: center;
   font-weight: bold;
   padding-left: 30px;
